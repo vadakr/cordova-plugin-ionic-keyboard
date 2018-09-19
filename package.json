@@ -1,5 +1,5 @@
 {
-  "name": "cordova-plugin-ionic-keyboard",
+  "name": "ionic-plugin-keyboard",
   "version": "2.1.2",
   "description": "Ionic Keyboard Plugin",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ionic-team/cordova-plugin-ionic-keyboard.git"
+    "url": "https://github.com/vadakr/cordova-plugin-ionic-keyboard.git"
   },
   "keywords": [
     "cordova",
@@ -27,5 +27,12 @@
   "devDependencies": {
     "np": "^2.16.0",
     "sync-cordova-xml": "^0.4.0"
+  },
+  "cordova": {
+    "id": "ionic-plugin-keyboard",
+    "platforms": [
+      "android",
+      "windows"
+    ]
   }
 }
